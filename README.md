@@ -56,6 +56,16 @@ yarn lint
 npm run lint
 ```
 
+## Unit Testing
+This project uses [Vitest](https://vitest.dev/) for unit testing React components and utilities.
+
+### Running Tests
+```bash
+yarn test
+# or
+npm run test
+```
+
 ## Project Structure
 ```
 src/
@@ -84,3 +94,8 @@ src/
 ## Error Handling
 - All major views are wrapped in an `ErrorBoundary` (`src/components/common/ErrorBoundary.tsx`).
 - Graceful fallback UI is shown on error.
+
+## Firebase Hosting
+This project is deployed using [Firebase Hosting](https://firebase.google.com/docs/hosting).
+
+- The live app can be accessed at: [https://ubiquiti-test-3d827.web.app/](https://ubiquiti-test-3d827.web.app/)
